@@ -7,7 +7,7 @@ My entry for [r/Minecraft Bi-Weekly Build Challenge #118: Dungeon](https://www.r
 <p>Simply copy the root folder of this repository into the <code>datapacks</code> subfolder of your world's save folder.</p>
 <p>(The actual folder <code>jnc-jigsaw-dungeon</code>, not just its contents).</p>
 </details>
-
+The idea behind how I have designed the dungeon, is such that it would feel like it fits in with the vanilla game. E.g. The sophistication of any generated redstone is at a similar level to redstone that is used in existing game structures such as jungle temples.
 
 The dungeon is generated with **jigsaw blocks**. This allows for randomness in the experience of tackling the dungeon, as the jigsaw blocks build up the structure by randomly pulling from structure pools.
 
