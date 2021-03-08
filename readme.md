@@ -1,12 +1,20 @@
-This is a datapack for Minecraft.
+This is a datapack for Minecraft Java Edition.
 
 My entry for [r/Minecraft Bi-Weekly Build Challenge #118: Dungeon](https://www.reddit.com/r/Minecraft/comments/luivrb/minecraft_biweekly_build_challenge_118_dungeon/).
 
 <details>
-<summary>To install the datapack:</summary>
-<p>Simply copy the root folder of this repository into the <code>datapacks</code> subfolder of your world's save folder.</p>
-<p>(The actual folder <code>jnc-jigsaw-dungeon</code>, not just its contents).</p>
+    <summary>To install the datapack into your world:</summary>
+    <p>Simply copy the folder <code>./jnc-jigsaw-dungeon/</code> to <code>[world folder]/datapacks/jnc-jigsaw-dungeon/</code>.</p>
+    <p>You can open your world folder by these steps:
+        <ol>
+        <li>Go to the singleplayer world select screen.</li>
+        <li>Select your world and click the 'Edit' button.</li>
+        <li>Click the 'Open World Folder' button.</li>
+        </ol>
+    </p>
 </details>
+
+
 The idea behind how I have designed the dungeon, is such that it would feel like it fits in with the vanilla game. E.g. The sophistication of any generated redstone is at a similar level to redstone that is used in existing game structures such as jungle temples.
 
 The dungeon is generated with **jigsaw blocks**. This allows for randomness in the experience of tackling the dungeon, as the jigsaw blocks build up the structure by randomly pulling from structure pools.
