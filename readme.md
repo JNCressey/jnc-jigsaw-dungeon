@@ -21,6 +21,36 @@ The dungeon is generated with **jigsaw blocks**. This allows for randomness in t
 
 # Currently Implemented
 
+## Generate the dungeon starting from the antechamber
+
+<details>
+<summary>To generate the dungeon:</summary>
+    <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
+    <p>Generate with:</p>
+    <ul>
+    <li><code>Target Pool</code>: <code>jnc_dungeon:pool_antechamber</code>,</li>
+    <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
+    <li><code>Levels</code> to at least <code>3</code>, and</li>
+    <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
+    </ul>
+</details>
+
+
+## An ante-chamber with a button puzzle
+
+The antechamber comes before the entrance to the spawner room. There is a button puzzle to open the door to the dungeon. 
+
+The antechamber either generates with a bonus or a trap. When performing the sequence that first opens the door you can determine whether there is a bonus or a trap.
+
+The bonus is revealed after an extra sequence of button presses. However, simply memorizing the sequence and doing it for every antechamber will trigger the trap when it generates with a trap.
+
+There are two possible traps:
+
+- Lava is released from the ceiling
+- The floor opens to a pitfall
+
+
+
 ## The zombie spawner room.
 
 The zombie spawner room has narrow hallways and paths for zombies to pathfind to behind you. This environment favors the zombie as it attacks with melee. 
@@ -31,31 +61,18 @@ A possible placement of a trapped chest also sets off TNT in the floor to create
 
 <details>
 <summary>To generate this room:</summary>
-<p>
-    Place a jigsaw block facing horizontally and generate with:
+    <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
+    <p>Generate with:</p>
     <ul>
     <li><code>Target Pool</code>: <code>jnc_dungeon:pool_zombie_labyrinth</code>,</li>
-    <li><code>Target Name</code>: <code>jnc_dungeon:pool_zombie_labyrinth</code>,</li>
+    <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
     <li><code>Levels</code> to at least <code>2</code>, and</li>
     <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
     </ul>
-</p>
 </details>
 
+
 # Planned
-
-## An ante-chamber with a button puzzle
-
-I have planned a button puzzle for opening the door to the dungeon. It has 2 possible starting states to be randomly selected.
-
-There is a sequence of button presses that opens the door for both states.
-
-There is a sequence of button presses that will give an extra reward for one starting state, but trigger a trap for the other starting state. It is possible to determine which you have been presented before triggering the trap.
-
-There will be two possible traps:
-
-- Lava released from the ceiling
-- Pitfall opened in the floor
 
 ## The skeleton spawner room
 
