@@ -3,18 +3,9 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 100,
-      "element": {
-        "location": "jnc_dungeon:zombie_trap_left",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
       "weight": 1,
       "element": {
-        "location": "jnc_dungeon:zombie_trap_right",
+        "location": "jnc_dungeon:zombie_trap_left",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

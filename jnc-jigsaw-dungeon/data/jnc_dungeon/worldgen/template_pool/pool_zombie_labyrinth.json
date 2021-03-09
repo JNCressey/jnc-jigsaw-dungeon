@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 50,
+      "weight": 1,
       "element": {
         "location": "jnc_dungeon:zombie_labyrinth_dual_gamma",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 50,
+      "weight": 1,
       "element": {
         "location": "jnc_dungeon:zombie_labyrinth_dual_l",
         "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 50,
+      "weight": 1,
       "element": {
         "location": "jnc_dungeon:zombie_labyrinth_u1",
         "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 50,
+      "weight": 1,
       "element": {
         "location": "jnc_dungeon:zombie_labyrinth_u2",
         "processors": "minecraft:empty",
