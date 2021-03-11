@@ -1,0 +1,15 @@
+{
+  "name": "jnc_dungeon:pool_skeleton_tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "jnc_dungeon:skeleton_tower_ribs",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
