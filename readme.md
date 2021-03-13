@@ -78,12 +78,22 @@ The skeleton spawner room is tall with the spawner high up. There is a parkour c
 
 The course is randomized.
 
-*Currently only implemented 1 bone upper floor type: ribs, and 1 parkour course type: helical*.
+### Skeleton tower implemented
 
-- planned upper floor structures:
-  - skull
+upper floor structures
+
+- ribs
+- skull
+
+parkour types
+
+- helical
+
+### Skeleton tower planned
+
+- upper floor structures
   - single bone
-- planned parkour types:
+- parkour types
   - ramp up one side
   - zig zag
 

@@ -1,11 +1,11 @@
 {
-  "name": "jnc_dungeon:pool_skeleton_parkour_ribs",
+  "name": "jnc_dungeon:pool_skeleton_parkour_skull",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "jnc_dungeon:skeleton_parkour_ribs_helix_left_handed",
+        "location": "jnc_dungeon:skeleton_parkour_skull_helix_left_handed",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
 	{
       "weight": 1,
       "element": {
-        "location": "jnc_dungeon:skeleton_parkour_ribs_helix_right_handed",
+        "location": "jnc_dungeon:skeleton_parkour_skull_helix_right_handed",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
