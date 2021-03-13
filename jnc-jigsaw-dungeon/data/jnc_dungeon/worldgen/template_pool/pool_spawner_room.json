@@ -5,6 +5,33 @@
     {
       "weight": 1,
       "element": {
+        "location": "jnc_dungeon:skeleton_tower_big_bone",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "jnc_dungeon:skeleton_tower_ribs",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "jnc_dungeon:skeleton_tower_skull",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
         "location": "jnc_dungeon:zombie_labyrinth_dual_gamma",
         "processors": "minecraft:empty",
 		"projection": "rigid",
