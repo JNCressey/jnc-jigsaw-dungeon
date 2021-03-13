@@ -70,31 +70,11 @@ A possible placement of a trapped chest also sets off TNT in the floor to create
     <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
     </ul>
 </details>
-# Partially Implemented
-
 ## The skeleton spawner room
 
 The skeleton spawner room is tall with the spawner high up. There is a parkour course for you to get up to disable the spawner. But hits from skeletons' arrows could cause you to fall down.
 
-The course is randomized.
-
-### Skeleton tower implemented
-
-upper floor structures
-
-- ribs
-- skull
-- big bone
-
-parkour types
-
-- helical
-
-### Skeleton tower planned
-
-- parkour types
-  - ramp up one side
-  - zig zag
+The structure of bone for the floor above is randomised between ribs, a big bone, and a skull. The parkour course is randomised between a helical course and an S shaped course.
 
 # Planned
 

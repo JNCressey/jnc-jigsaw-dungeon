@@ -1,0 +1,24 @@
+{
+  "name": "jnc_dungeon:pool_skeleton_parkour_base_to_right_handed",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "jnc_dungeon:skeleton_parkour_base_helix_to_right_handed",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "jnc_dungeon:skeleton_parkour_base_zigzag_to_right_handed",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
