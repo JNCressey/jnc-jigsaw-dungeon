@@ -14,7 +14,6 @@ My entry for [r/Minecraft Bi-Weekly Build Challenge #118: Dungeon](https://www.r
     </p>
 </details>
 
-
 The idea behind how I have designed the dungeon, is such that it would feel like it fits in with the vanilla game. E.g. The sophistication of any generated redstone is at a similar level to redstone that is used in existing game structures such as jungle temples.
 
 The dungeon is generated with **jigsaw blocks**. This allows for randomness in the experience of tackling the dungeon, as the jigsaw blocks build up the structure by randomly pulling from structure pools.
@@ -35,7 +34,6 @@ The dungeon is generated with **jigsaw blocks**. This allows for randomness in t
     </ul>
 </details>
 
-
 ## An ante-chamber with a button puzzle
 
 The antechamber comes before the entrance to the spawner room. There is a button puzzle to open the door to the dungeon. 
@@ -49,8 +47,6 @@ There are two possible traps:
 - Lava is released from the ceiling
 - The floor opens to a pitfall
 
-
-
 ## The zombie spawner room.
 
 The zombie spawner room has narrow hallways and paths for zombies to pathfind to behind you. This environment favors the zombie as it attacks with melee. 
@@ -60,7 +56,7 @@ The arrangement of the walls, and of chests is randomized.
 A possible placement of a trapped chest also sets off TNT in the floor to create a ditch you could have difficulty getting out of while fighting off zombies. 
 
 <details>
-<summary>To generate this room:</summary>
+<summary>To generate just this room:</summary>
     <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
     <p>Generate with:</p>
     <ul>
@@ -70,11 +66,24 @@ A possible placement of a trapped chest also sets off TNT in the floor to create
     <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
     </ul>
 </details>
+
 ## The skeleton spawner room
 
 The skeleton spawner room is tall with the spawner high up. There is a parkour course for you to get up to disable the spawner. But hits from skeletons' arrows could cause you to fall down.
 
 The structure of bone for the floor above is randomised between ribs, a big bone, and a skull. The parkour course is randomised between a helical course and an S shaped course.
+
+<details>
+<summary>To generate just this room:</summary>
+    <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
+    <p>Generate with:</p>
+    <ul>
+    <li><code>Target Pool</code>: <code>jnc_dungeon:pool_skeleton_tower</code>,</li>
+    <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
+    <li><code>Levels</code> to at least <code>2</code>, and</li>
+    <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
+    </ul>
+</details>
 
 # Planned
 
