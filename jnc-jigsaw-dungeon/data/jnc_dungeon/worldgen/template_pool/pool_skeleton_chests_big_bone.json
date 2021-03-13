@@ -1,11 +1,11 @@
 {
-  "name": "jnc_dungeon:pool_skeleton_tower",
+  "name": "jnc_dungeon:pool_skeleton_chests_big_bone",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "jnc_dungeon:skeleton_tower_big_bone",
+        "location": "jnc_dungeon:skeleton_chests_big_bone_opposite",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,16 +14,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "jnc_dungeon:skeleton_tower_ribs",
-        "processors": "minecraft:empty",
-		"projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "location": "jnc_dungeon:skeleton_tower_skull",
+        "location": "jnc_dungeon:skeleton_chests_big_bone_nestled",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

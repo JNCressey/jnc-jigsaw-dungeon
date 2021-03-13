@@ -84,6 +84,7 @@ upper floor structures
 
 - ribs
 - skull
+- big bone
 
 parkour types
 
@@ -91,8 +92,6 @@ parkour types
 
 ### Skeleton tower planned
 
-- upper floor structures
-  - single bone
 - parkour types
   - ramp up one side
   - zig zag
