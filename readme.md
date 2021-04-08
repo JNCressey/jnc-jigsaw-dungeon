@@ -48,26 +48,6 @@ There are two possible traps:
 - Lava is released from the ceiling
 - The floor opens to a pitfall
 
-## The zombie spawner room.
-
-The zombie spawner room has narrow hallways and paths for zombies to pathfind to behind you. This environment favors the zombie as it attacks with melee. 
-
-The arrangement of the walls, and of chests is randomized.
-
-A possible placement of a trapped chest also sets off TNT in the floor to create a ditch you could have difficulty getting out of while fighting off zombies. 
-
-<details>
-<summary>To generate just this room:</summary>
-    <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
-    <p>Generate with:</p>
-    <ul>
-    <li><code>Target Pool</code>: <code>jnc_dungeon:pool_zombie_labyrinth</code>,</li>
-    <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
-    <li><code>Levels</code> to at least <code>2</code>, and</li>
-    <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
-    </ul>
-</details>
-
 ## The skeleton spawner room
 
 The skeleton spawner room is tall with the spawner high up. There is a parkour course for you to get up to disable the spawner. But hits from skeletons' arrows could cause you to fall down.
@@ -100,6 +80,26 @@ The placement of the cobwebs is randomly selected from 3 nest shapes: more dense
     <li><code>Target Pool</code>: <code>jnc_dungeon:pool_spider_nest</code>,</li>
     <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
     <li><code>Levels</code> to at least <code>3</code>, and</li>
+    <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
+    </ul>
+</details>
+
+## The zombie spawner room.
+
+The zombie spawner room has narrow hallways and paths for zombies to pathfind to behind you. This environment favors the zombie as it attacks with melee. 
+
+The arrangement of the walls, and of chests is randomized.
+
+A possible placement of a trapped chest also sets off TNT in the floor to create a ditch you could have difficulty getting out of while fighting off zombies. 
+
+<details>
+<summary>To generate just this room:</summary>
+    <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
+    <p>Generate with:</p>
+    <ul>
+    <li><code>Target Pool</code>: <code>jnc_dungeon:pool_zombie_labyrinth</code>,</li>
+    <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
+    <li><code>Levels</code> to at least <code>2</code>, and</li>
     <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
     </ul>
 </details>
