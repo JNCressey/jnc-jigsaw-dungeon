@@ -18,9 +18,8 @@ The idea behind how I have designed the dungeon, is such that it would feel like
 
 The dungeon is generated with **jigsaw blocks**. This allows for randomness in the experience of tackling the dungeon, as the jigsaw blocks build up the structure by randomly pulling from structure pools.
 
-# Currently Implemented
 
-## Generate the dungeon starting from the antechamber
+# Generate the dungeon starting from the antechamber
 
 <details>
 <summary>To generate the dungeon:</summary>
@@ -29,10 +28,12 @@ The dungeon is generated with **jigsaw blocks**. This allows for randomness in t
     <ul>
     <li><code>Target Pool</code>: <code>jnc_dungeon:pool_antechamber</code>,</li>
     <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
-    <li><code>Levels</code> to at least <code>3</code>, and</li>
+    <li><code>Levels</code> to at least <code>4</code>, and</li>
     <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
     </ul>
 </details>
+
+# Dungeon features
 
 ## An ante-chamber with a button puzzle
 
@@ -85,10 +86,20 @@ The structure of bone for the floor above is randomised between ribs, a big bone
     </ul>
 </details>
 
-# Planned
-
 ## The spider spawner room
 
-The spider spawner room will be clear of obstacles such that the spiders can easily navigate. However, there are many cobweb blocks which slow your movement. 
+The spider spawner room is clear of obstacles other than cobwebs. This favours the spiders as they move through cobwebs unaffected but the player is slowed.
 
-The cobweb placement is randomized. There may be a twisted path you can take which requires passing through/breaking fewer cobwebs. 
+The placement of the cobwebs is randomly selected from 3 nest shapes: more dense in the centre, more dense towards the back wall, or evenly spread.
+
+<details>
+<summary>To generate just this room:</summary>
+    <p>Place a jigsaw block facing horizontally with jigsaw face towards where the dungeon will go.</p>
+    <p>Generate with:</p>
+    <ul>
+    <li><code>Target Pool</code>: <code>jnc_dungeon:pool_spider_nest</code>,</li>
+    <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
+    <li><code>Levels</code> to at least <code>3</code>, and</li>
+    <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
+    </ul>
+</details>
