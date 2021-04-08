@@ -81,7 +81,7 @@ The structure of bone for the floor above is randomised between ribs, a big bone
     <ul>
     <li><code>Target Pool</code>: <code>jnc_dungeon:pool_skeleton_tower</code>,</li>
     <li><code>Target Name</code>: <code>jnc_dungeon:in</code>,</li>
-    <li><code>Levels</code> to at least <code>2</code>, and</li>
+    <li><code>Levels</code> to at least <code>3</code>, and</li>
     <li><code>Keep Jigsaws</code>: <code>OFF</code>.</li>
     </ul>
 </details>
